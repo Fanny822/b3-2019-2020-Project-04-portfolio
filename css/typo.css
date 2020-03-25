@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+  color: white;
+
+
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+
+
+
+}
+
+#name_blog {
+  font-size: 20em;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.65em;
+}
+
+figcaption {
+  font-size: 0.75;
+  font-style: italic;
+}
+
+
+#contact p {
+font-size: 3em;
+font-weight: bold;
+}
