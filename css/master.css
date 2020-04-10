@@ -16,15 +16,25 @@ header {
 
 }
 
+#name_blog {
+  position:  relative;
+  top: 180px;
+  left: 50px;
+  width: 300px;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
 #main-menu {
   background: rgba(255, 50, 27, 1);
   position: absolute;
   top: 0;
-  left: -300px;
+  left: -400px;
   width: 300px;
   height: 100%;
   transition: 3s all ease;
   z-index: 999;
+  font-family: sans-serif;
 }
 
 #main-menu:target {
@@ -35,10 +45,13 @@ header {
 
 #main-menu ul a {
   display: block;
-  color: rgba(0, 0, 0, 1);
-  background: rgba(255, 247, 98, 0.5);
+  color: #1C3AE6;
+  background: #E5D9FF;
   padding: 1em;
-  margin-bottom: 1px;
+  margin-bottom: 100px;
+  position: center;
+
+
 
 }
 
@@ -93,9 +106,15 @@ header {
   margin: 0 auto;
 
 }
-
-
-
+#name_blog {
+  font-size: 16em;
+  line-height: 1;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+}
+}
 
 
 
@@ -116,8 +135,11 @@ header {
 }
 
 
+
+
+
 .project-feature img {
-  width: 250px;
+  width: 300px;
 
 }
 
@@ -136,5 +158,23 @@ header {
 }
 
 .photo-feature img {
-  width : 400px;
+  width : 250px;
+}
+
+.intro {
+  margin:1.5em;
+  padding-right: 300px;
+}
+
+
+
+.presentation {
+  margin: 5em;
+  padding-right: 500px;
+
+}
+
+
+#contact p{
+  margin: 1.5em;
 }
