@@ -13,27 +13,11 @@ h1 {
   font-family: sans-serif;
   font-weight: bold;
 
-}
 
-
-#main-menu {
-  font-family: sans-serif;
 }
 
 
 
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 0.65em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-figcaption {
-  font-size: 0.75;
-  font-style: italic;
-}
 
 
 #contact p {
@@ -47,14 +31,5 @@ font-weight: bold;
   font-size : 4em;
   font-weight: bold;
   line-height: 1;
-  text-align-last: left;
-}
-
-
-
-.presentation {
-  font-size: 1.25em;
-  font-weight: 400;
-  line-height: 1.25;
   text-align-last: left;
 }

@@ -1,0 +1,54 @@
+h1 {
+  font-family: sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 9em;
+display: flex;
+position: relative;
+color: black;
+}
+
+.retour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  text-decoration: none;
+  position: fixed;
+  left: 150px;
+  top: 400px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 6em;
+
+}
+
+
+
+p {
+  font-family: sans-serif;
+
+font-weight: bold;
+font-size: 4em;
+display: flex;
+position: relative;
+color: black;
+}
+
+
+.photo-feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.photo-feature {
+  margin: 5em;
+  padding: 5em;
+  flex-basis: 320px;
+}
+
+.photo-feature img {
+  width : 600px;
+}
